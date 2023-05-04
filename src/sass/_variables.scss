@@ -1,2 +1,17 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+
+
+$night : #1a1a1d;
+$deep : rgb(59, 108, 172);
+$beige : #EAE3D6;
+$footer-dark : rgb(45, 45, 45);
+
+$custom-colors : (
+    "night" : $night,
+    "deep" : $deep,
+    "beige" : $beige,
+    "footer-dark" : $footer-dark,
+);
+
+$theme-colors : map-merge($theme-colors, $custom-colors );
